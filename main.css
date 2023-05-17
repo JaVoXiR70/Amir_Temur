@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 1200px;
+    margin: 0 auto;
+}
+.container ul a :hover{
+    background: rgb(74, 72, 72);
+    color: #fff;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(236, 231, 231, 0.5);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+.container1{
+    height: 100vh;;
+     background-repeat: no-repeat;
+     background-image: url('./kkk.jpg');
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     
+}.katta1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.part2{
+    justify-content: center;
+}
